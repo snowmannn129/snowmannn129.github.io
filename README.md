@@ -14,14 +14,14 @@ HTML5
 CSS3
 JavaScript
 How to View the Website
-To view the live website, visit https://username.github.io (replace "username" with the actual GitHub username).
+To view the live website, visit https://snowmannn129.github.io (replace "username" with the actual GitHub username).
 
 Local Development
 To run the website locally, follow these steps:
 
 Clone the repository to your local machine by running the following command in your terminal (or command prompt):
 
-git clone https://github.com/username/username.github.io.git
+git clone https://github.com/snowmannn129/snowmannn129.github.io.git
 (Replace "username" with the actual GitHub username.)
 
 Open the index.html file in a web browser to view the website.
