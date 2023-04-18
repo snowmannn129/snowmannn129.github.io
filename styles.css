@@ -1,0 +1,189 @@
+.sticky-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333; /* Choose your desired background color */
+  }
+  
+  .sticky-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sticky-navbar li {
+    padding: 8px;
+  }
+  
+  .sticky-navbar a {
+    display: inline-block;
+    color: #4861ec; /* Choose your desired text color */
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #444; /* Choose your desired background color for the links */
+    transition: background-color 0.3s;
+  }
+  
+  .sticky-navbar a:hover {
+    background-color: #555; /* Choose your desired background color for the links when hovering */
+  }
+  
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #f8f5f5;
+    background-color: #222;
+    line-height: 1.6;
+  }
+
+  .article-text {
+    font-size: 12px;
+  }
+  
+  
+  /* Header */
+  header {
+    padding: 60px 40px;
+    background-color: #333;
+    text-align: center;
+    border-bottom: 2px solid #444;
+  }
+
+  .star-wars {
+    overflow: hidden;
+    height: 100vh;
+    perspective: 500px;
+    background: #000 url("stars2.png") center no-repeat;
+    background-size: cover;
+    font-family: "Newsreader", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .crawl {
+    width: 80%;
+    max-width: 800px;
+    text-align: justify;
+    animation: crawl 80s linear 2s both;
+    transform-origin: 50% 100%;
+    transform: rotateX(20deg) translateY(100%);
+  }
+  
+  .content {
+    position: relative;
+    font-size: 1.5rem;
+    color: #ffc400;
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .content h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  @keyframes crawl {
+    0% {
+      transform: rotateX(20deg) translateY(100%);
+    }
+    100% {
+      transform: rotateX(20deg) translateY(-500%);
+    }
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 20px;
+  }
+  
+  .nav-links li a {
+   
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  
+  header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  
+  header h2 {
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  /* Sections */
+  section {
+    padding: 40px;
+  }
+  
+  section h3 { 
+    color: #4861ec;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    list-style: none;
+  }
+  
+  section ul li {
+    padding: 4px 0;
+  }
+  
+  /* Work Experience and Education */
+  article {
+    margin-bottom: 20px;
+  }
+  
+  article h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Portfolio */
+  #portfolio p {
+    margin-bottom: 20px;
+  }
+  
+  /* Contact */
+  #contact p {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    background-color: #333;
+    text-align: center;
+    border-top: 2px solid #444;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
