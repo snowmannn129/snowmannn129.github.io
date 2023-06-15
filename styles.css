@@ -76,7 +76,7 @@
     width: 80%;
     max-width: 800px;
     text-align: justify;
-    animation: crawl 80s linear 2s both;
+    animation: crawl 120s linear 2s both; /* Changed from 80s to 120s */
     transform-origin: 50% 100%;
     transform: rotateX(20deg) translateY(100%);
   }
